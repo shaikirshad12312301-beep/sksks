@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohammed Irshad Ahmed – HVAC Engineer</title>
+
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    :root{
+      --dark:#0B1120;
+      --light:#F9FBFD;
+      --accent:#FDD835;
+      --text:#111;
+    }
+    html{scroll-behavior:smooth;}
+    body{font-family:'Inter',sans-serif;background:var(--dark);color:#fff;}
+    section{padding:75px 0;scroll-margin-top:70px;}
+    .navbar{background:var(--dark)!important;}
+    .navbar .nav-link{color:#fff!important;font-weight:600;margin:0 .5rem;}
+    .navbar .nav-link:hover{color:var(--accent)!important;}
+    .hero img{width:150px;height:150px;border:4px solid var(--accent);}
+    .section-light{background:var(--light);color:var(--text);}
+    .btn-accent{background:var(--accent);color:var(--text);font-weight:600;}
+    .btn-accent:hover{background:#eac831;}
+    footer{background:#000;}
+    .metric-box{background:#1c2331;border-radius:10px;padding:1.5rem 1rem;text-align:center;}
+    .metric-box h3{color:var(--accent);font-weight:700;}
+    .float-btn{
+      position:fixed;right:20px;bottom:20px;
+      display:flex;flex-direction:column;gap:12px;z-index:1050;
+    }
+    .float-btn a{
+      width:50px;height:50px;border-radius:50%;
+      background:var(--accent);color:#000;
+      display:flex;align-items:center;justify-content:center;
+      font-size:1.4rem;box-shadow:0 4px 12px rgba(0,0,0,.4);
+    }
+  </style>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#nav" data-bs-offset="70">
+
+<!-- ===== NAVBAR ===== -->
+<nav id="nav" class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">Mohammed Irshad</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu"><span class="navbar-toggler-icon"></span></button>
+    <div id="menu" class="collapse navbar-collapse justify-content-end">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section id="home" class="text-center">
+  <div class="container">
+    <img src="https://via.placeholder.com/150" alt="profile" class="rounded-circle mb-4">
+    <h1 class="fw-bold">Mohammed Irshad Ahmed</h1>
+    <h5 class="text-warning mb-3">Junior HVAC Planning & Application Engineer</h5>
+    <p>Specialising in HVAC Planning, Heat-Load Analysis & Revit MEP Design for Commercial & Residential Projects.</p>
+
+    <div class="row justify-content-center g-3 mt-4">
+      <div class="col-4 col-md-2 metric-box"><h3>15%</h3><small>Material Waste Reduction</small></div>
+      <div class="col-4 col-md-2 metric-box"><h3>8%</h3><small>Cost Optimisation</small></div>
+      <div class="col-4 col-md-2 metric-box"><h3>400+</h3><small>Units Managed</small></div>
+    </div>
+
+    <a href="#contact" class="btn btn-accent mt-4">Get Started Today →</a>
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section id="about" class="section-light">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-4">About Me</h2>
+    <p class="text-center mb-5" style="max-width:700px;margin:auto;">Mechanical Engineering graduate with specialised expertise in HVAC planning and application engineering. Proven track record in optimising resources, ensuring quality, and delivering projects on time with significant cost savings and waste reduction.</p>
+
+    <div class="row g-4">
+      <div class="col-md-6">
+        <h5 class="mb-3"><i class="fas fa-graduation-cap text-warning me-2"></i>Education</h5>
+        <ul class="list-group">
+          <li class="list-group-item d-flex justify-content-between">B.E. Mechanical – Muffakham Jah <span class="badge bg-warning">69.5 %</span></li>
+          <li class="list-group-item d-flex justify-content-between">Diploma Mechanical – SBTET <span class="badge bg-warning">93 %</span></li>
+          <li class="list-group-item d-flex justify-content-between">SSC – TMREIS <span class="badge bg-warning">87 %</span></li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h5 class="mb-3"><i class="fas fa-tools text-warning me-2"></i>Technical Skills</h5>
+        <span class="badge bg-light text-dark me-1 mb-1">HAP</span>
+        <span class="badge bg-light text-dark me-1 mb-1">Revit MEP</span>
+        <span class="badge bg-light text-dark me-1 mb-1">Primavera P6</span>
+        <span class="badge bg-light text-dark me-1 mb-1">MS Project</span>
+        <span class="badge bg-light text-dark me-1 mb-1">BOQ & BOD</span>
+        <span class="badge bg-light text-dark me-1 mb-1">Duct & Pipe Sizing</span>
+        <span class="badge bg-light text-dark me-1 mb-1">Risk Management</span>
+        <span class="badge bg-light text-dark me-1 mb-1">Site Coordination</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PORTFOLIO ===== -->
+<section id="portfolio" class="section-light">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-4">Project Portfolio</h2>
+    <div class="row g-4 justify-content-center">
+      <div class="col-md-5"><div class="card shadow-sm"><div class="card-body"><h5 class="text-primary">Bloom Kaveri Hills – BOQ & Planning</h5><p>15 % material waste reduction • 120 units • 3 months</p></div></div></div>
+      <div class="col-md-5"><div class="card shadow-sm"><div class="card-body"><h5 class="text-primary">Srinath Residency – Cost Analysis</h5><p>8 % cost savings • 85 units • 2.5 months</p></div></div></div>
+      <div class="col-md-5"><div class="card shadow-sm"><div class="card-body"><h5 class="text-primary">Bloom DLF – Scheduling</h5><p>Primavera P6 • 200 + units • 6 months</p></div></div></div>
+      <div class="col-md-5"><div class="card shadow-sm"><div class="card-body"><h5 class="text-primary">Prestige Villa 121 – QC</h5><p>Luxury villas • 25 units • 4 months</p></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== EXPERIENCE ===== -->
+<section id="experience" class="py-5">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-4">Project Experience</h2>
+    <div class="row g-4 justify-content-center">
+      <div class="col-md-5"><div class="card bg-dark"><div class="card-body"><h5 class="text-warning">Bloom DLF – Residential High-Rise</h5><p>HVAC planning & Primavera P6 scheduling coordination.</p></div></div></div>
+      <div class="col-md-5"><div class="card bg-dark"><div class="card-body"><h5 class="text-warning">Bloom Kaveri Hills – Apartments</h5><p>Jr. Planning Engineer – 15 % waste reduction via optimised planning.</p></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SERVICES ===== -->
+<section id="services" class="section-light">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-4">Services & Expertise</h2>
+    <div class="row g-4 text-center">
+      <div class="col-md-4"><div class="card shadow-sm h-100"><div class="card-body"><h5 class="text-warning">Heat-Load Calculation</h5><small>HAP software • energy optimisation</small></div></div></div>
+      <div class="col-md-4"><div class="card shadow-sm h-100"><div class="card-body"><h5 class="text-success">Equipment Selection</h5><small>Specs • vendor coordination • cost analysis</small></div></div></div>
+      <div class="col-md-4"><div class="card shadow-sm h-100"><div class="card-body"><h5 class="text-info">Duct & Pipe Design</h5><small>Revit MEP • layout optimisation • code compliance</small></div></div></div>
+      <div class="col-md-4"><div class="card shadow-sm h-100"><div class="card-body"><h5 class="text-danger">BOQ & BOD</h5><small>Detailed bill of quantities & drawings</small></div></div></div>
+      <div class="col-md-4"><div class="card shadow-sm h-100"><div class="card-body"><h5 class="text-secondary">Site Coordination</h5><small>Installation QC • progress monitoring</small></div></div></div>
+      <div class="col-md-4"><div class="card shadow-sm h-100"><div class="card-body"><h5 class="text-primary">Project Scheduling</h5><small>Primavera P6 • resource planning • risk management</small></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section id="contact" class="section-light">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-4">Get In Touch</h2>
+    <div class="row justify-content-center g-4">
+      <div class="col-md-5">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Send a Message</h5>
+            <form action="https://formsubmit.co/mohdirshadahmed01@gmail.com" method="POST">
+              <input type="text" name="name" class="form-control mb-2" placeholder="Full Name" required>
+              <input type="email" name="email" class="form-control mb-2" placeholder="Email Address" required>
+              <textarea name="message" class="form-control mb-2" rows="4" placeholder="Project Details" required></textarea>
+              <button type="submit" class="btn btn-accent w-100">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Contact Info</h5>
+            <p><i class="fas fa-envelope text-warning me-2"></i> mohdirshadahmed01@gmail.com</p>
+            <p><i class="fas fa-phone text-warning me-2"></i> +91 9XXXXXXXXX</p>
+            <p><i class="fas fa-map-marker-alt text-warning me-2"></i> Hyderabad, Telangana</p>
+            <a href="https://linkedin.com/in/mohdirshadahmed" target="_blank" class="btn btn-outline-primary"><i class="fab fa-linkedin"></i> LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="py-3 text-center">
+  <small>&copy; 2024 Mohammed Irshad Ahmed. All rights reserved.</small>
+</footer>
+
+<!-- floating action buttons (call, email, whatsapp) -->
+<div class="float-btn">
+  <a href="tel:+919XXXXXXXXX" title="Call"><i class="fas fa-phone"></i></a>
+  <a href="mailto:mohdirshadahmed01@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+  <a href="https://wa.me/919XXXXXXXXX?text=Hello%20Irshad,%20I%20saw%20your%20portfolio." target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
